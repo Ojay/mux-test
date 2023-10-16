@@ -1,4 +1,6 @@
-function Example({ Component, pageProps }) {
+import { AppProps } from 'next/app';
+
+function Example({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />;
 }
 
